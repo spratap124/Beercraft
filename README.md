@@ -1,6 +1,6 @@
-# vivriti
+# Beercraft
 
-> A Vue.js project
+> A web application built using VueJs and Bootstrap to order beers online
 
 ## Build Setup
 
