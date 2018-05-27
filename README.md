@@ -2,6 +2,8 @@
 
 > A web application built using VueJs and Bootstrap to order beers online
 
+![alt text](https://github.com/spratap124/Gamelister/blob/master/src/assets/images/homescreen.png)
+
 ## Build Setup
 
 ``` bash
