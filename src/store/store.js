@@ -73,11 +73,11 @@ export const store = new Vuex.Store({
         getCartTotal(state){
             var total = 0;
             if (state.cart.length != 0) {
-                state.cart.forEach(function (item) {
-                    total += item.quantity * item.details.price;
-                });
+                total = state.cart.reduce(function (sum, currentVal) {
+                    return sum + currentVal.details.price*currentVal.quantity;
+                }, 0);
                 return total;
-            } else {
+            }else {
                 return total;
             }
         },

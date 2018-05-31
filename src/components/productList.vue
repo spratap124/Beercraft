@@ -136,8 +136,9 @@ export default {
       if(this.search.length > 0){
         console.log("searching");
           return self.pdList.filter(function(beer) {
-              
+
               return beer.name.toString().toLowerCase().includes(self.search.toLowerCase());
+              
           }).filter(function(row,index){
               //for pagination
               if (self.currentPage >= self.totalPages) {
