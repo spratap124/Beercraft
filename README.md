@@ -2,7 +2,7 @@
 
 > A web application built using VueJs and Bootstrap to order beers online
 
-![alt text](https://github.com/spratap124/Pokedex/blob/master/public/Details.png)
+![alt text](https://github.com/spratap124/Beercraft/blob/master/src/assets/images/beer%20list.png)
 
 ## Build Setup
 
